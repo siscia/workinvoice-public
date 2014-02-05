@@ -6,6 +6,8 @@ Abbiamo troppi pochi namespace e troppe linee di codice in un solo file, il che 
 
 Più namespace rendono più ovvio la separazione di responsabilità nel codebase il che rende più semplice aggiungere ulteriori funzionalità e features.
 
+Notare ad esempio il namesoace `wit.models.db` ma anche `wit.routes.home`.
+
 Non ho trovato una suit di test, per quanto possa sembrare una perdita di tempo sul lungo termine porta un enorme aumento di produttività, in più essendo un sistema commerciale vogliamo essere sicuri di aver codice solido, il tempo down non costa solo in termine di immagine ma anche in meri termini monetari.
 
 Infine non ho trovato documentazione, il codice viene spiegato solo dal codice stesso, il che rende lento per chiunque nuovo iniziare a essere produttivo.
